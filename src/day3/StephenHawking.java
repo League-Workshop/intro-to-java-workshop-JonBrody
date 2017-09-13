@@ -8,6 +8,9 @@ public class StephenHawking {
 	// 2. ask the user for a sentence
 	// 3. call the speak method below and send it the sentence
 	// 4. repeat steps 2 and 3 a lot of times
+	public static void main(String[] args) {
+		speak("hello");
+	}
 
 	/* Don’t change this…. */
 	static void speak(String words) {
